@@ -5,7 +5,7 @@ Third homework for JavaScript 2 course by Czechitas (autumn 2020)
 ### Jak spustit
 
 1. Stáhnout si obsah repozitáře
-1. Přejit v konzoli do adresáře staženého repozitáře
+1. Přejít v konzoli do adresáře staženého repozitáře
 1. Spustit příkaz **npm install**
 
 ### Scripty
