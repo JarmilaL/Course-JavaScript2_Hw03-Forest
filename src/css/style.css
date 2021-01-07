@@ -1,0 +1,153 @@
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #1c78c0;
+  text-align: center;
+}
+
+.select {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1310px;
+}
+
+.select div {
+  padding: 10px;
+  margin: 0 10px 40px 0;
+  width: 150px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.biome {
+  border: 2px solid white;
+  color: white;
+  background-color: #1c78c0;
+}
+
+
+
+.label,
+.selected,
+.biome:hover,
+.biome:focus {
+  border: 2px solid #1c78c0;
+  color: #1c78c0;
+  background-color: white;
+}
+
+.lists {
+  margin: auto;
+  width: 1310px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.list {
+  min-width: 600px;
+  margin: 0;
+  padding: 15px 20px;
+  list-style: none;
+  border-radius: 6px;
+}
+
+.list--trees {
+  background-color: rgb(180, 230, 175);
+}
+
+.list--trees .list-item {
+  color: #fff;
+  background-color: rgb(112, 187, 105);
+}
+
+.list--animals {
+  background-color: rgb(230, 191, 175);
+}
+
+.list--animals .list-item {
+  color: #fff;
+  background-color: rgb(187, 121, 105);
+}
+
+.list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.list-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.list-item {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.overview {
+  min-width: 576px;
+  display: flex;
+}
+
+.overview div {
+  flex: 0 0 calc((100% / 9) * 2);
+  text-align: center;
+
+}
+
+.overview .conservationStatus {
+  flex: 0 0 calc((100% / 9) * 3);
+}
+
+.overview-heading {
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.animals {
+  color: rgb(155, 99, 84)
+}
+
+.plants {
+  color: rgb(104, 176, 98)
+}
+
+.details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details div {
+  margin-bottom: 15px;
+}
+
+.details .photo {
+  margin-bottom: 0;
+}
+
+.latin {
+  text-align: center;
+}
+
+img {
+  max-width: 576px;
+  border-radius: 6px;
+}
+
+.hidden {
+  display: none;
+}
